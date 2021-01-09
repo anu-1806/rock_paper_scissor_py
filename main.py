@@ -79,10 +79,10 @@ while True:
     predict = prediction()
     update_scores(predict, player_move)
     update_count(player_move)
+    # game ends here
     if computer_score == 5:
         print("Computer won")
         break
     elif player_score == 5:
         print("Player won")
         break
-
